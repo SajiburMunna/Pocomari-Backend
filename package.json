@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "jest",
-        "start": "nodemon server.js",
+        "start": "node server.js",
         "prettier": "npx prettier --write '.'"
     },
     "author": "https://github.com/arnab-shuvo",
@@ -21,6 +21,7 @@
         "ejs": "^3.0.2",
         "express": "^4.17.1",
         "express-validator": "5.3.1",
+        "heroku": "^7.59.2",
         "is-base64": "^1.1.0",
         "jest": "^25.2.4",
         "jsonwebtoken": "^8.5.1",
